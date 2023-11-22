@@ -1,0 +1,522 @@
+/*LOGIN*/
+.objeklogin h1{
+    position: absolute;
+    top: 260px;
+    left: 110px;
+    color: #fff;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: 0 2px 6px #555555;
+    font-size: 56px;
+}
+
+.objeklogin img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10%;
+}
+
+.rectangle{
+    position: absolute;
+    width: 936px;
+    height: 753px;
+    left: 600px;
+    top: 0px;
+    background: #FFFFFF;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: -10px 12px 15px #555555;
+} 
+
+.box{
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    font-family: Mulish;
+    text-align: center;
+}
+
+.box h1{
+    color: #A074B9;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #B5B5B5;
+    padding: 14px 200px;
+    outline: none;
+    color: #D090E7;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    border-color: #D090E7;
+}
+
+.box button[type=submit]{
+    border: 0;
+    background: #D090E7;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 277px;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box button[type=submit]:hover{
+    background: #A074B9;
+}
+
+.gagal{  
+    position: absolute;
+    top: 500px;
+    left: 340px;
+    color: red;
+}
+
+/*HOME PELANGGAN*/
+.produkbs{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Georgia, Serif;
+    color: #904298;
+}
+
+.produkbs h1{
+    font-size: 38px;
+    color: #fff;
+}
+
+.juduldaftar h1{
+    font-size: 38px;
+    color: #fff;
+}
+
+.produkbs h2{
+    font-size: 18px;
+    color: #fff;
+}
+
+.justify-content-center{
+	margin-top: 1%;
+}
+
+.carousel .carousel-item{
+	margin-top: 180px;
+  	height: 545px;
+}
+
+.carousel-item img{
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 545px;
+}
+
+.boxproduk{
+    font-family: mulish;
+    margin-left: 30px;
+}
+
+.namaproduk{
+    margin-top: 10px;
+}
+
+.deskripsiproduk{
+    margin-top: -10px;
+}
+
+.hargaproduk{
+    color: #904298;
+}
+
+.addtobag img{
+    margin-top:-80px;
+    margin-left: 210px;
+}
+
+.col-md-8{
+    margin-top: 40px;
+    width: 90%;
+    height: 360px;
+    border: 2px solid #904298;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.seemore button[type=button]{
+    font-family: Mulish;
+    position: absolute;
+    top: 237%;
+    left: 43%;
+    border: 0;
+    background: #A074B9;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.seemore button[type=button]:hover{
+    background: #904298;
+}
+
+/* DAFTAR PRODUK */
+.juduldaftar{
+    margin-top: 250px;
+    text-align: center;
+    font-family: Georgia, Serif;
+    color: #904298;
+}
+
+/* MY BAG */
+.tabelmybag{
+    background-color: #FFFFFF;
+    margin-top: 3%;
+    margin-left: 390px;
+    font-family: mulish;
+    text-align: center;
+    width: 50%;
+}
+
+/* HOME ADMIN CATEGORY */
+.homeadmin{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.tabelcategory{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-family: mulish;
+    text-align: center;
+    width: 50%;
+}
+
+.addcategory h1{
+    text-align: center;
+    margin-top: 17%;
+    font-family: Georgia, Serif;
+    color: white;
+    text-shadow: 0 2px 6px #555555;    
+}
+
+.addcategory button[type=button]{
+    font-family: Mulish;
+    position: absolute;
+    top: 40%;
+    left: 658px;
+    border: 0;
+    background: #904298;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.addcategory button[type=button]:hover{
+    background: #A074B9;
+}
+
+/* ADD CATEGORY */
+.menuaddcategory{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.formtambahcategory{
+    position: absolute;
+    top: 40%;
+    left: 648px;
+}
+
+.formtambahcategory h1{
+    font-family: Georgia, Serif;
+    color: white;
+    text-shadow: 0 2px 6px #555555; 
+
+}
+
+.formtambahcategory input[type="text"]{
+    font-family: mulish;
+    border: 0;
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A074B9;
+    padding: 14px 10px;
+    outline: none;
+    color: #A074B9;
+    border-radius: 24px;
+}
+
+.formtambahcategory button[type=submit]{
+    font-family: Mulish;
+    border: 0;
+    background: #904298;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.formtambahcategory button[type=submit]:hover{
+    background: #A074B9;
+}
+
+/*EDIT CATEGORY*/
+
+.menueditcategory{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.formeditcategory{
+    position: absolute;
+    top: 40%;
+    left: 648px;
+}
+
+.formeditcategory h1{
+    font-family: Georgia, Serif;
+    color: white;
+    text-shadow: 0 2px 6px #555555; 
+
+}
+
+.formeditcategory input[type="text"]{
+    font-family: mulish;
+    border: 0;
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A074B9;
+    padding: 14px 10px;
+    outline: none;
+    color: #A074B9;
+    border-radius: 24px;
+}
+
+.formeditcategory button[type=submit]{
+    font-family: Mulish;
+    border: 0;
+    background: #904298;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.formeditcategory button[type=submit]:hover{
+    background: #A074B9;
+}
+
+/*ADMIN PRODUCTS*/
+.menuproduct{
+    background-image: url(bg1.jpg);
+    background-size: cover;    
+}
+
+.tabelproduct{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-family: mulish;
+    text-align: center;
+    width: 50%;
+}
+
+.addproduct h1{
+    text-align: center;
+    margin-top: 17%;
+    font-family: Georgia, Serif;
+    color: white;
+    text-shadow: 0 2px 6px #555555;    
+}
+
+.addproduct button[type=button]{
+    font-family: Mulish;
+    position: absolute;
+    top: 40%;
+    left: 658px;
+    border: 0;
+    background: #904298;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.addproduct button[type=button]:hover{
+    background: #A074B9;
+}
+
+/* ADD PRODUCT */
+.menuaddproduct{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+.formaddproduct{
+    position: absolute;
+    top: 30%;
+    left: 580px;
+}
+
+.formaddproduct h1{
+    text-align: center;
+    font-family: Georgia, Serif;
+    color: white;
+    text-shadow: 0 2px 6px #555555; 
+
+}
+
+.formaddproduct input[type="text"], .txt{
+    text-align: center;
+    font-family: mulish;
+    border: 0;
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #A074B9;
+    padding: 14px 78px;
+    outline: none;
+    color: #A074B9;
+    border-radius: 24px;
+}
+
+.input-control{
+    font-family: mulish;
+    border: 0;
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A074B9;
+    padding: 14px 10px;
+    outline: none;
+    color: #A074B9;
+    border-radius: 24px;
+}
+
+.ic2{
+    text-align: center;    
+    font-family: mulish;
+    border: 0;
+    background: #fff;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #A074B9;
+    padding: 14px 130px;
+    outline: none;
+    color: #A074B9;
+    border-radius: 24px;
+}
+
+.formaddproduct button[type=submit]{
+    font-family: Mulish;
+    border: 0;
+    background: #904298;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 60px;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.formaddproduct button[type=submit]:hover{
+    background: #A074B9;
+}
+
+.register {
+    margin-top: 2%;
+    width: 350px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 30px 30px;
+}
+
+.login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.login-email .input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #D090E7;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+ 
+.login-register-text a {
+    text-decoration: none;
+    color: #D090E7;
+}
